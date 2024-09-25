@@ -40,6 +40,11 @@ This file contains the structure we will style using CSS.
 - In your code editor, create a new file and name it `layout.css`.
 - In the `<head>` section of `index.html`, link the CSS file:
 ```css
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
 ```
 
 - Write a CSS rule in `layout.css` to perform the following:
